@@ -1,0 +1,303 @@
+/* ============================== Default Css ================================ */
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ============================= Header ============================== */
+.header {
+  background: url(./img//aboutimg1.jpg) no-repeat top center;
+  background-size: cover;
+  min-height: 750px;
+}
+.header-top {
+  padding-top: 50px;
+}
+.header-top-left a {
+  display: inline-block;
+  text-decoration: none;
+}
+.haeder-top-center ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: right;
+}
+.haeder-top-center ul li {
+  display: inline-block;
+}
+.haeder-top-center ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: #333333;
+  padding: 0 15px;
+}
+.header-top-right a {
+  display: inline-block;
+  text-decoration: none;
+  color: #1769ff;
+  border: 2px solid #1769ff;
+  padding: 20px 35px;
+  border-radius: 50px;
+  font-size: 20px;
+  transition: 0.4s;
+  margin-top: -15px;
+}
+.header-top-right a:hover {
+  border: 2px solid #1769ff;
+  background-color: #1769ff;
+  color: #fff;
+}
+.header-bottom {
+  padding-top: 160px;
+}
+.haeder-bottom-right h3 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #333333;
+}
+.haeder-bottom-right h1 {
+  font-size: 47px;
+  font-weight: 400;
+  color: #333333;
+  margin: 20px 0;
+}
+.haeder-bottom-right a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 25px 50px;
+  background: #1769ff;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.4s;
+  border: 2px solid #1769ff;
+  margin-top: 20px;
+}
+.haeder-bottom-right a:hover {
+  background: none;
+  border: 2px solid #1769ff;
+  color: #1769ff;
+}
+/* ========================= Service Section =========================== */
+.service {
+  padding: 50px 0;
+}
+.service-title h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+.service-item {
+  margin-top: 20px;
+}
+.service-item:hover {
+  background-color: #1769ff;
+  border: 2px solid #1769ff;
+  color: #fff;
+  height: 230px;
+  padding-top: 20px;
+}
+.service-item:hover span {
+  color: #fff;
+}
+.service-item:hover h4 {
+  color: #fff;
+}
+.service-item:hover p {
+  color: #fff;
+}
+.service-item:hover .blue-border {
+  border: 2px solid #fff;
+}
+.service-item span {
+  display: block;
+  color: #1769ff;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.service-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #222222;
+}
+.service-item p {
+  font-size: 15px;
+  color: #777777;
+  margin-top: 15px;
+  line-height: 26px;
+}
+.blue-border {
+  border: 2px solid #1769ff;
+  width: 70px;
+  margin: auto;
+}
+/* =========================== Portfolio =============================== */
+.portfolio {
+  background: #f4f4f4;
+  padding: 60px 0;
+}
+.portfolio-title h2 {
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+.portfolio-item {
+  position: relative;
+}
+.portfolio-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(23, 104, 255, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.portfolio-item:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+/* ======================== Make It Awesome ========================== */
+.make-it-awesome {
+  padding: 60px 0;
+}
+.make-it-awesome-left h3 {
+  font-size: 34px;
+  font-weight: 300;
+  color: #333333;
+}
+.make-it-awesome-left p {
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+.make-it-awesome-right a {
+  display: inline-block;
+  border: 2px solid #1769ff;
+  color: #1769ff;
+  padding: 20px 35px;
+  border-radius: 50px;
+  font-size: 20px;
+  transition: 0.4s;
+  margin-top: 40px;
+}
+.make-it-awesome-right a:hover {
+  background-color: #1769ff;
+  color: #fff;
+  border: 2px solid #1769ff;
+}
+/* ============================ About Me =========================== */
+.about-me {
+  background: #f4f4f4;
+  padding: 60px 0;
+}
+.about-me-content h2 {
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  color: #0a0b0c;
+  margin-bottom: 45px;
+}
+.about-me-images-content h5 {
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 10px;
+  font-family: "Raleway";
+}
+.about-me-images-content span {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Raleway";
+  color: #8b8b8b;
+  display: inline-block;
+}
+.about-me p {
+  color: #0a0b0c;
+  line-height: 30px;
+  margin-top: 20px;
+}
+/* =========================== Footer =========================== */
+.footer-top-1 {
+  padding: 50px 0;
+  text-align: center;
+  margin: auto;
+}
+.footer-top-1-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-top-1-content ul {
+  list-style: none;
+  margin: auto;
+  text-align: center;
+}
+.footer-top-1-content ul li {
+  display: inline-block;
+}
+.footer-top-1-content ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #0a0b0c;
+  margin-right: 30px;
+  font-size: 18px;
+}
+.footer-top-1-content input {
+  width: 220px;
+  display: inline-block;
+  border-radius: 30px;
+}
+.footer-top-2 {
+  padding-bottom: 20px;
+}
+.footer-top-2 ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+.footer-top-2 ul li {
+  display: inline-block;
+}
+.footer-top-2 ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #a7a7a7;
+  height: 50px;
+  width: 50px;
+  background: #ebebeb;
+  line-height: 50px;
+  border-radius: 50%;
+  margin-right: 22px;
+  transition: 0.4s;
+  font-size: 20px;
+}
+.footer-top-2 ul li a:hover {
+  background-color: #1769ff;
+  color: #fff;
+}
+.footer-bottom {
+  border-top: 2px solid #ddd;
+  padding: 20px 0;
+}
+.footer-bottom p {
+  font-size: 16px;
+  color: #777777;
+  margin-top: 10px;
+}
+.footer-top-1-input span {
+  display: inline-block;
+  margin-left: -15%;
+}
